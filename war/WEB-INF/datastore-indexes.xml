@@ -1,0 +1,7 @@
+<datastore-indexes autoGenerate="false">
+<datastore-index kind="Tweet" ancestor="false" source="manual"> 
+<property name="userid" direction="asc"/> 
+<property name="count" direction="desc"/> 
+</datastore-index>
+ <datastore-index kind="Tweet" ancestor="false" source="manual"> <property name="userid" direction="desc"/> <property name="count" direction="desc"/> </datastore-index>
+  </datastore-indexes>
